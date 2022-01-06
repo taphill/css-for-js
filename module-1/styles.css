@@ -1,0 +1,59 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato";
+  margin: 0;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+main {
+  background-color: darkgrey;
+  border-top: 8px solid grey;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+strong {
+  color: green;
+}
+
+.max-width-wrapper {
+  max-width: 810px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.intro-chunk {
+  padding-bottom: 32px;
+}
+
+.title {
+  padding-top: 64px;
+  padding-bottom: 16px;
+}
+
+.card {
+  background-color: white;
+  margin-left: -16px;
+  margin-right: -16px;
+  border-bottom: 8px solid grey;
+  padding: 8px 16px;
+}
+
+.indented-heading {
+  background-color: gold;
+  width: fit-content;
+  margin-left: -24px;
+  border-bottom: 8px solid;
+  padding: 8px 24px;
+}
